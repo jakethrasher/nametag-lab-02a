@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+*{
+    box-sizing: border-box;
+}
+html, body{
+    height:100%;
+    margin:0;
+    padding: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 3px;
+    background-color:#d3f3ee;
+    height: 100px;
+    font-size: 3rem;
+}
+main{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nametag-body{
+    background-color: #DACC3E ;
+    width: 400px;
+    height: 264px;
+    border-radius: 25px;
+}
+.text-area{
+    text-align: center;
+}
+.hello{
+    font-size: 3.5rem;
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+}
+.my-name-is{
+    font-size: 1.8rem;
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+
+}
+.name-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 30%;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 1.7rem;
+    margin-top: 10px;
+}
+
+footer{
+    height: 100px;
+    background-color: #7fb7be;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 3px;
+    font-size: 3rem;
+}
+aside{
+    height: 80%;
+    background-color: #bc2c1a;
+    position: absolute;
+    right: 0px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 2rem;
+}
+
