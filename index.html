@@ -9,22 +9,28 @@
 <body>
     <header>Header</header>
     <main>
-        <div class="nametag-body">
+        <p class="instructions">Move your cursor over the nametag to generate a random color!</p class="instructions">
+        <div id="nametag" class="nametag-body">
             <section class="text-area">
+                <img id="smile" class="smile spin" src="smiley.png">
                 <p class="hello">HELLO</p>
                 <p class="my-name-is">my name is</p>
             </section>
             
             <div class="name-display">
-                <p>Jake Thrasher (he/him)</p>
+                <p id="name">Jake Thrasher (he/him)</p>
             </div>
         </div> 
-        <aside >
+        <input id="name-input" type="text" placeholder="enter your name">
+        <button id="button" class="button">submit</button>
+        <button id="turn-smile" class="magic-button">MAGIC</button>
+        <aside>
             <p class="side-bar">Side Bar</p>
         </aside>  
     </main>
     
- <footer>Footer</footer>   
+ <footer>Footer</footer>  
+ <script src="app.js"></script>
 </body>
 </html>
     
